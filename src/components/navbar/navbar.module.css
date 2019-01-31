@@ -1,0 +1,38 @@
+.navbarContainer {
+    margin: 0 auto;
+    max-width: 1100px;
+    padding: 25px 1.0875rem 1.45rem;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.navbarLeft {
+  color: grey;
+  letter-spacing: 1px;
+}
+
+.nav {
+  display: inline;
+  float: right;
+}
+
+.nav:hover {
+  color: #bcbcbc;
+}
+
+.li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0 15px;
+}
+
+.li:hover {
+  color: #007AFF;
+}
+
+.link {
+  text-decoration: none;
+  letter-spacing: 2px;
+  color: inherit;
+  font-size: 0.9em;
+}
